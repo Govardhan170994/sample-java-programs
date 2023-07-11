@@ -1,5 +1,5 @@
 FROM openjdk:11
 MAINTAINER Kuchi Govardhan Chowdary
-EXPOSE 8084
+EXPOSE 8085
 ADD /memoryref/target/memoryref.jar  memoryref.jar
 ENTRYPOINT ["java","-jar","/memoryref"]
