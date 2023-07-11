@@ -1,6 +1,6 @@
 FROM openjdk:11
 MAINTAINER Kuchi Govardhan Chowdary
-EXPOSE 8085
+EXPOSE 8086
 ADD /memoryref/target/memoryref.jar  memoryref.jar
 ENTRYPOINT ["ping"]
 CMD ["google.com"]
