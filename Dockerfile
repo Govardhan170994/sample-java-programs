@@ -1,6 +1,6 @@
 FROM openjdk:11
 MAINTAINER Kuchi Govardhan Chowdary
-EXPOSE 8091
+EXPOSE 8092
 COPY . /app/
 WORKDIR /app/memoryref
 COPY /memoryref/target/* /app/memoryref/
