@@ -1,6 +1,6 @@
-FROM openjdk:11
+FROM openjdk:8
 MAINTAINER Kuchi Govardhan Chowdary
-EXPOSE 8093/tcp
+EXPOSE 8094
 COPY . /app/
 WORKDIR /app/memoryref
 COPY /memoryref/target/* /app/memoryref/
